@@ -16,7 +16,19 @@
     
     // Write your loop here!
     
+    NSUInteger steps = 0;
+    NSUInteger anvil = arc4random_uniform(25) + 26;
     
+    do {
+        if (steps % 10 == 0) {
+            NSLog(@"YOU'RE CUCKOO!");
+        }
+        if (steps == anvil) {
+            NSLog(@"SMASH!");
+        }
+        NSLog(@"Meep! Meep!");
+        steps++;
+    } while (steps <= anvil);
     
     
     
