@@ -11,9 +11,10 @@
     
      */
     
+    NSUInteger steps = 0;
     do {
         NSLog(@"Meep! Meep!");
-    } while (YES);
+    } while (steps <= 50);
     
     // do not alter
     return YES;  //
