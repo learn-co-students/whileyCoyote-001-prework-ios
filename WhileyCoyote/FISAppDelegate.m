@@ -13,6 +13,9 @@
     
     NSUInteger steps = 0;
     do {
+        if ((steps % 10 == 0) && (steps > 0)) {
+            NSLog(@"YOU'RE CUCKOO!");
+        }
         NSLog(@"Meep! Meep!");
         steps++;
     } while (steps <= 50);
