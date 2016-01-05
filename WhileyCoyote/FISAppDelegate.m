@@ -11,6 +11,10 @@
     
      */
     
+    do {
+        NSLog(@"Meep! Meep!");
+    } while (YES);
+    
     // do not alter
     return YES;  //
     ///////////////
