@@ -14,6 +14,7 @@
     NSUInteger steps = 0;
     do {
         NSLog(@"Meep! Meep!");
+        steps++;
     } while (steps <= 50);
     
     // do not alter
