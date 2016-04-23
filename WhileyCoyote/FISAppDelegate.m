@@ -2,6 +2,13 @@
 
 #import "FISAppDelegate.h"
 
+// Objectives:
+// 1. Practice using loops.
+// 2. Encounter an infinite loop situation.
+
+// Advanced:
+// 1. Use arc4random_uniform() to generate a value within a specified range.
+
 @implementation FISAppDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
